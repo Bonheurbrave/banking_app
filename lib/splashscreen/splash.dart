@@ -9,7 +9,8 @@ class SplashScreen extends StatelessWidget{
       ),
       body: Center(
         child:Column(children: [
-          Text("this is the splash screen")
+          Text("this is the splash screen"),
+          Icon(Icons.shopping_cart)
         ],)
       )
 
