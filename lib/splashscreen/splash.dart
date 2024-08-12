@@ -8,7 +8,9 @@ class SplashScreen extends StatelessWidget{
         title: Text('Splash Screen'),
       ),
       body: Center(
-        child: Image.asset('assets/images/splash_screen.png'),
+        child:Column(children: [
+          Text("this is the splash screen")
+        ],)
       )
 
     );
